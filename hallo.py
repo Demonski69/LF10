@@ -3,4 +3,7 @@ def begruessung(name:str):
 
 name = input("Bitte geben Sie den Namen ein: ")
 begruessung(name)
-print("Auf Wiedersehen!")
+tschuess(name)
+
+def tschuess(name:str):
+  print("Auf Wiedersehen,", name, "!")
